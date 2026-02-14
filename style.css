@@ -1,0 +1,43 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+text-align:center;
+}
+
+.controls button{
+margin:10px;
+padding:12px 20px;
+border:none;
+border-radius:8px;
+background:#00c6ff;
+color:white;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+.controls button:hover{
+background:#0072ff;
+transform:scale(1.05);
+}
+
+.wrap{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:20px;
+}
+
+canvas{
+background:#111;
+border-radius:12px;
+box-shadow:0 0 20px rgba(0,0,0,.7);
+}
+
+#output{
+margin-top:20px;
+font-size:18px;
+font-weight:bold;
+color:#00eaff;
+}
